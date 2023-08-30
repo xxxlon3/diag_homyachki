@@ -5,7 +5,7 @@ set net=%workdir%\net
 set pingdir=%net%\ping
 set speed=%net%\speed
 set tr=%net%\tracert
-set yadns=77.7.8.8
+set yadns=77.88.8.8
 set domru=st.saratov.ertelecom.ru
 @del 3_*
 rem mode con: cols=39 lines=3  &color 1E
