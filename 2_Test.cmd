@@ -5,7 +5,7 @@ set net=%workdir%\net
 set pingdir=%net%\ping
 set speed=%net%\speed
 set tr=%net%\tracert
-set yadns=77.7.8.8
+set yadns=77.8.8.8
 set domru=st.saratov.ertelecom.ru
 del 3_*
 rem mode con: cols=39 lines=3  &color 1E
@@ -24,4 +24,4 @@ for %%g in (%domru%) do iperf3.exe -c %%g -P 10 -V --logfile %speed%\%%g.txt
 iperf3.exe -c %domru% -P 10 -V --logfile %speed%\%domru%.txt
 7za.exe a 3_diag_%date%_%username%_%computername%.zip %workdir%
 rmdir /Q /S %workdir%
-msg "%username%" Готово
+msg "%username%" ГѓГ®ГІГ®ГўГ®
